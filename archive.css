@@ -1,0 +1,66 @@
+<style type='text/css'>
+/* Daftar Isi */
+
+.table-of-content {
+  background-color:#333;
+  border:2px solid #fafafa;
+  font:normal normal 11px/normal Verdana,Geneva,"DejaVu Sans",Tahoma,Arial,Sans-serif;
+  color:#999;
+  margin-bottom:5px;
+  overflow:hidden;
+  box-shadow:0 1px 2px black;
+}
+.table-of-content .toc-header {
+  margin:0;
+  padding:10px 15px;
+  overflow:hidden;
+  cursor:pointer;
+  font:inherit;
+  font-size:13px;
+  color:#bbb;
+  text-shadow:0 1px 1px rgba(0,0,0,.3);
+  background-color:#3a3a3a;
+  margin-bottom:1px
+}
+.table-of-content .toc-header.active,   .table-of-content .toc-header:hover {
+  color:#efefef;
+  background-color:#248AB0;
+}
+.table-of-content .loading {
+  display:block;
+  padding:10px 15px;
+  text-decoration:blink;
+}
+.table-of-content ol {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.table-of-content li {
+  line-height:normal;
+  margin:0;
+  padding:5px 5px 5px 15px;
+  white-space:nowrap;
+  text-align:left;
+  overflow:hidden;
+border-bottom:1px solid #2f2f2f
+}
+.table-of-content li:first-child {border-top:none}
+.table-of-content li:last-child {border-bottom:none}
+.table-of-content a {
+  color:#5687f8;
+  text-decoration:none;
+}
+.table-of-content a:hover {text-decoration:underline}
+.table-of-content a:visited {color:#5687b8}
+.credit-link {
+  text-align:right;
+  margin-right:2px;
+}
+.credit-link a {
+  font:normal bold 10px/normal Helmet,Freesans,Sans-Serif;
+  color:#333;
+  text-decoration:none;
+}
+</style>
